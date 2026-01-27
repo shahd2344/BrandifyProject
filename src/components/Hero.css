@@ -1,0 +1,63 @@
+.btn {
+  background: #2b3f6d;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: none;
+  align-items: right;
+}
+
+.btn-outline {
+  border: 1px solid #2b3f6d;
+  color: #2b3f6d;
+  background: transparent;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  align-items: right;
+}
+
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: var(--text-color);
+  max-width: 600px;
+  font-family: var(--font-primary);
+}
+
+.hero-content h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+.hero-content .btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
