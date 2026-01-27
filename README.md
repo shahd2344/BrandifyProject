@@ -1,16 +1,51 @@
-# React + Vite
+# Brandify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brandify is a modern training center website that provides hands-on courses in *Web Development, **Mobile Apps, and **UI/UX Design*. The platform is designed to help users gain practical skills and prepare for the job market with interactive features like course registration and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## *Features*
 
-## React Compiler
+- Responsive design for desktop and mobile devices
+- Interactive course registration form
+- Payment method selection (Credit/Debit or PayPal)
+- User preferences with toggles (Add to Calendar, Smart Reminders)
+- Course details sidebar with image and info
+- About page with stats and mission statement
+- Contact page with form, location map, and social links
+- Navbar and footer components reusable across pages
+- Smooth navigation using *React Router*
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## *Technologies Used*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Vite (build tool)
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- React Icons
+
+*Installation & Setup*
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/brandify.git
+Navigate to the project directory:
+Copy code
+Bash
+cd brandify
+Install dependencies:
+Copy code
+Bash
+npm install
+Start the development server:
+Copy code
+Bash
+npm run dev
+Open the app in your browser at:
+Copy code
+
+http://localhost:5173
